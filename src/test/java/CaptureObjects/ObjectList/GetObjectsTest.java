@@ -19,7 +19,7 @@ public class GetObjectsTest {
 	@Test
 	void Objtest() throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "/Users/e5110612/Downloads/chromedriver");
+ 		System.setProperty("webdriver.chrome.driver", "//Users//e5110612//Downloads//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		FindElementsBypage elementobj = new FindElementsBypage();
 		
