@@ -65,7 +65,7 @@ public class HTTPClient {
 	 void validateUrl() throws Exception 
 	 
 	 {
-		 System.setProperty("webdriver.chrome.driver", "/Users/e5110612/Downloads/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", "//Users//e5110612//Downloads//chromedriver.exe");
 		 Chdriver = new ChromeDriver();
 	//    Path filePath = Paths.get("src/url-list.txt");
 	  //  List<String> myURLArrayList = Files.readAllLines(filePath);
